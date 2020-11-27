@@ -1,0 +1,6 @@
+venv
+dev
+dist
+tests
+.idea
+*.pyc
