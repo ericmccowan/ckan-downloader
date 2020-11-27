@@ -3,8 +3,15 @@ An interactive command-line utility for downloading data from a CKAN data portal
 
 Provide a CSV with or specify some dataset IDs to start downloading all resources attached to those datasets into folders. 
 
+## Installation
+```
+pip install ckan-downloader
+```
+
 ## Example usage
 ```
+$ python -m ckan_downloader
+
 CKAN Downloader 0.1.0
 
 What is the data portal URL? 
@@ -42,3 +49,4 @@ Downloading WHOLE REPORT (https://gsq-horizon.s3-ap-southeast-2.amazonaws.com/QD
 * add command line options to skip interactive mode
 * search by spatial extent
 * include or skip certain filetypes
+* use progress bars

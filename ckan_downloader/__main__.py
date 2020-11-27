@@ -124,7 +124,7 @@ def get_ckan_url(in_url=None):
 
 
 if __name__ == '__main__':
-    from _version import __version__
+    from ckan_downloader._version import __version__
     # dataset_id_list = list()
 
     # todo add command line option
