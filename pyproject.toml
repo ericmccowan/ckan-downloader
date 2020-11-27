@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "ckan-downloader"
-version = "0.1.0"
+version = "0.1.1"
 description = "An interactive command-line utility for downloading data from a CKAN data portal"
 authors = ["Eric McCowan <eric.mccowan@servian.com>"]
 license = "MIT"
+readme = "readme.md"
 
 [tool.poetry.dependencies]
-python = "^3"
+python = "^3.6"
 requests = "^2.24.0"
 tqdm = "^4.51.0"
 
